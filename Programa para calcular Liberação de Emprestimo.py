@@ -11,6 +11,6 @@ print('Para pagar uma casa no valor de R${:.2f} em {} anos'.format(casa, anos), 
 print('a prestação será de R${:.2f} em {} vezes.'.format(prestacao, parcelas))
 
 if prestacao <= minimo:
-    print('Emprestimo pode ser CONCEDIDO!')
+    print('Empréstimo pode ser CONCEDIDO!')
 else:
-    print('Valor solicitado excedo o limite de 30% do salário. \nEmprestimo NEGADO!')
+    print('Valor solicitado excede o limite de 30% do salário. \nEmpréstimo NEGADO!')
